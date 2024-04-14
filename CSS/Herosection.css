@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.banner {
+    background-color: white;
+    width: 100%;
+    padding: 2em 0;
+  }
+  .row {
+    align-items: center;
+  }
+  /* h1 {
+    text-shadow: 1px 1px 2px #7c7c7c;
+  } */
+  .btn {
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px rgba(105, 73, 73, 0.15);
+    background-color: #e86458;;
+  }
+
+
+  /* Herosection.css */
+  #herotext {
+    transition: 1.5s;
+    
+  }
+
+  #herotext::after{
+    transform: translateY(100%);
+  }
+
+#herotext, #herotext2{
+  color: #e86458;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.herobtn{
+  padding: 0.5em 1.5em;
+    border-radius: 2em;
+    background-color: #e86458;
+    border: none;
+    color: white;
+    padding: 10px 40px 12px;
+    font-size: 20px;
+}
+
+.herobtn:hover{
+  background-color: white;
+  border: 2px solid #e86458;
+  color: #e86458;
+}
+
+  @media screen and (max-width: 567px) {
+    .banner {
+      text-align: center;
+    }
+  }
+
+  /* Facts */
+
+  .facts-plus{
+    color: #e86458;
+    font-family: "Quicksand";
+    font-weight: 800;
+    font-size: 48px;
+    
+  }
+
+  /* Clients Review */
+
+  .clientheading{
+    margin-top: 5.5rem;
+  }
+
+  .clientheadinginner{
+
+    font-family: "Quicksand";
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  #tcard{
+    border: 2px solid #e86458;
+    padding: 2rem;
+    height: 20rem !important;
+    width: auto;
+    border-radius: 20px;
+  }
+
+  .testimonialimg{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+  }
+
+  #tcardbody{
+    text-align: center;
+  }
+
+
+  /* Journey and Packages */
+
+ 
+  section {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .left,
+  .right {
+    flex: 1;
+  }
+  
+  .left .inner {
+    height: 100vh;
+    display: block;
+    position: sticky; /* Make the left column sticky by default */
+    top: 0;
+  }
+  
+  .right .inner {
+    padding: 40px 100px;
+    font-size: 22px;
+  }
+  
+  .left .inner.sticky .journeyvideo {
+    position: sticky;
+    top: 0;
+  }
+  
+  .left .inner.sticky .journeyvideo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  
+  img{
+    height: 100vh;
+    width: 50vw;
+  }
+
+  .journeytitle{
+    font-family: "Quicksand";
+    font-weight: 800;
+    font-size: 41px;
+  }
+  
+
+  .journeytitlep{
+    /* font-family: "Quicksand Regular"; */
+    font-weight: -100;
+    margin-top: 1rem;
+  }
+  
+  .journeybtn{
+  padding: 0.5em 1.5em;
+    border-radius: 2em;
+    background-color: #e86458;
+    border: none;
+    color: white;
+    padding: 10px 40px 12px;
+    font-size: 20px;
+ }
+
+.journeybtn:hover{
+  background-color: white;
+  border: 2px solid #e86458;
+  color: #e86458;
+ }
+
+
+ /* Deliver & Services */
+
+ .servicemaintitle{
+  font-family: "Quicksand";
+  font-weight: 800;
+ }
+
+ .servicemainpara{
+  font-family: "Quicksand";
+ }
+
+ #servicecard {
+  max-width: 25rem;
+  padding:10px 40px 12px ;
+  border-radius: 20px;
+}
+
+#servicecardbody {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#servicecardbtncontainer {
+  margin-top: auto; /* Align the button to the bottom of the card */
+  text-align: center;
+}
+
+#servicecardbtn{
+  margin-top: auto; /* Align the button to the bottom of the card */
+  padding: 10px 50px 12px;
+  border-radius: 2em;
+  border: none;
+  font-size: 15px;
+  font-family: "Quicksand";
+  font-weight: 800;
+  width: 100%;
+}
+
+
+.card-title{
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.card-text{
+  font-family: "Quicksand";
+}
+
+.services{
+  margin-top: 13rem;
+}
+
+.servicecard1, .servicecard3, .servicecard5{
+  background-color: #e86458;
+}
+
+.servicecard2, .servicecard4, .servicecard6{
+  background-color: #fdc31a;
+}
+
+.servicecardbtn1,.servicecardbtn3, .servicecardbtn5{
+  background-color: white;
+  color: black;
+  
+}
+
+.servicecardbtn2,.servicecardbtn4, .servicecardbtn6{
+  background-color: white;
+  color: black;
+  
+}
+
+.servicecardbtn1:hover,.servicecardbtn3:hover, .servicecardbtn5:hover{
+  background-color: #E4A11B;
+  color: white;
+}
+
+.servicecardbtn2:hover,.servicecardbtn4:hover, .servicecardbtn6:hover{
+  background-color: salmon;
+  color: #fdc31a;;
+}
+
+/*Discover and Experience*/
+
+.discover{
+  margin-top: 13rem;
+  margin-bottom: 13rem;
+}
+
+.discovermaintitle{
+font-family: "Quicksand";
+font-weight: 800;
+}
+
+.discovermainpara{
+  font-family: "Quicksand";
+}
+
+
+
+
+
