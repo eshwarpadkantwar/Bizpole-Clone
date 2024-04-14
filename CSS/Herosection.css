@@ -279,7 +279,72 @@ font-weight: 800;
   font-family: "Quicksand";
 }
 
+.discoverwithvideos{
+  margin-top:13rem;
+  margin-bottom:13rem;
+}
+
+.wrapper{
+margin-top:300px
+} */
 
 
 
+/* .discovertitle,.discoverpara{
+  font-family: "Quicksand" !important;
+} */
 
+.discovertitle{
+  font-weight: 600;
+  font-family: "Quicksand" !important;
+}
+
+.context1, .content2 .content3, .content4{
+  width: 40%;
+}
+
+.advideo1{
+  width :320px;
+  float:right;
+  margin-top:-150px;
+  height:270px;
+  margin-bottom: 200px;
+}
+
+ .advideo3{
+  width :400px;
+  float:right;
+  margin-top:-150px;
+  height:300px;
+  margin-bottom: 200px;
+}
+
+.advideo3{
+margin-top:-7px
+}
+
+.advideo2, .advideo4{
+  width :400px;
+  float:left;
+  margin-top:-100px;
+  height:300px;
+  margin-bottom: 200px;
+}
+
+.startbtn{
+  margin-top: auto; 
+  text-align: center;
+  margin-left: -23%;
+}
+
+.startactbtn{
+  margin-top: auto; /* Align the button to the bottom of the card */
+  padding: 10px 50px 12px;
+  border-radius: 2em;
+  border: none;
+  font-size: 15px;
+  font-family: "Quicksand";
+  font-weight: 800;
+  color: white;
+  
+}

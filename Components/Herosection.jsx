@@ -348,6 +348,62 @@ function Herosection() {
                 <p className="text-center discovermainpara">Bringing every entrepreneurial dream to life</p>
             </div>
 
+            <div className="container discoverwithvideos">
+                <div className="wrapper">
+                    <div className="advideo1">
+                        <video className="img-fluid" width={400} autoPlay loop muted playsInline onError={(e) => console.error("Video error:", e)}>
+                            <source src="../Media/Videos/1.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div className="context3">
+                        <h1 className="discovertitle">Reduce your administrative costs by 50%</h1>
+                        <p className="discoverpara">Bizpole is a comprehensive business hub that eliminates the need for you to go to multiple service providers for your business needs. Our comprehensive range of services enable you to manage your company’s financials, legal compliance and registrations in one place, saving you time and money.</p>
+                    </div>
+                </div>
+
+                <div className="wrapper">
+                    <div className="advideo2">
+                        <video className="img-fluid" width={400} autoPlay loop muted playsInline onError={(e) => console.error("Video error:", e)}>
+                            <source src="../Media/Videos/3.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div className="context2">
+                        <h1 className="discovertitle">Saving 70% of your Time Spent on Administrative Work</h1>
+                        <p className="discoverpara">Imagine being able to work on what matters most to you, leaving the rest up to Bizpole. That's our mission. To free entrepreneurs from the day-to-day hassles of running a business so they can do more of what they love and accomplish their goals faster.</p>
+                    </div>
+                </div>
+
+                <div className="wrapper" id="wrapper3">
+                    <div className="advideo3">
+                        <video className="img-fluid" width={400} autoPlay loop muted playsInline onError={(e) => console.error("Video error:", e)}>
+                            <source src="../Media/Videos/4.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div className="context3">
+                        <h1 className="discovertitle">Championing Customer Excellence</h1>
+                        <p className="discoverpara">We know that a business is only as good as the people behind it. That's why Bizpole representatives work as a part of your team, not just ours. We don't just offer you products and services—we help you make them happen.</p>
+                    </div>
+                </div>
+
+                <div className="wrapper">
+                    <div className="advideo4">
+                        <video className="img-fluid" width={400} autoPlay loop muted playsInline onError={(e) => console.error("Video error:", e)}>
+                            <source src="../Media/Videos/5.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div className="context4">
+                        <h1 className="discovertitle">No Hidden Cost</h1>
+                        <p className="discoverpara">We want you to know exactly what you're paying for. There are no hidden fees or last minute costs, and we’ve made our pricing as easy to understand as possible.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="container startbtn">
+                <button className="btn startactbtn">Get Started</button>
+            </div>
 
             {/* Discover the Experience Start */}
 
