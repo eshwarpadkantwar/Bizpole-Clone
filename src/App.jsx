@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
 import Navbar from '../Components/Navbar';
 import Homepage from '../Pages/Homepage';
+import Footer from '../Components/Footer';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Navbar />
       <Homepage/>
+      <Footer/>
     </div>
   );
 }

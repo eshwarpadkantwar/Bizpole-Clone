@@ -335,6 +335,7 @@ margin-top:-7px
   margin-top: auto; 
   text-align: center;
   margin-left: -23%;
+  margin-bottom: 10%;
 }
 
 .startactbtn{
@@ -347,4 +348,43 @@ margin-top:-7px
   font-weight: 800;
   color: white;
   
+}
+
+/* Bottom banner */
+
+.btmbanner {
+  background-color: #fdc31a;
+  width: 100%;
+  padding: 2em 0;
+}
+.row {
+  align-items: center;
+}
+.btmtitle {
+  color: white;
+  font-family: "Quicksand";
+}
+
+.btmpara{
+  font-family: "Quicksand";
+  color: white;
+}
+
+.btmbtn {
+  padding: 0.5em 1.5em;
+  border-radius: 2em;
+  box-shadow: 5px 5px 5px rgba(105, 73, 73, 0.15);
+}
+
+.btmimg{
+  height: 350px;
+  width: 300px;
+  float: right;
+}
+
+
+@media screen and (max-width: 567px) {
+  .btmbanner {
+    text-align: center;
+  }
 }

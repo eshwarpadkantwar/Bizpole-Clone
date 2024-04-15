@@ -192,7 +192,7 @@ function Herosection() {
                         <div className="inner sticky">
                             <div className="journeyvideo col-sm-auto">
                                 <video className="img-fluid" width={400} autoPlay loop muted playsInline onError={(e) => console.error("Video error:", e)}>
-                                    <source src="../Media/Videos/1_img.mp4" type="video/mp4" />
+                                    <source src="../Media/Videos/2_img.mp4" type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -200,9 +200,9 @@ function Herosection() {
                     </div>
                     <div className="right">
                         <div className="inner">
-                            <h1 className="journeytitle">Stress-free Business</h1>
-                            <h1 className="journeytitle">Registration</h1>
-                            <p className="journeytitlep">An SME entrepreneur can obtain all registrations and licenses required to start his business from Bizpole.</p>
+                            <h1 className="journeytitle">Seamless Bookkeeping </h1>
+                            <h1 className="journeytitle">services</h1>
+                            <p className="journeytitlep">Once incorporated, you can carry out financial transactions using our digital banking and automated accounting and eliminate accountant's cost.</p>
                             <button className="journeybtn">Register your business</button>
 
                         </div>
@@ -406,6 +406,29 @@ function Herosection() {
             </div>
 
             {/* Discover the Experience Start */}
+
+            {/* Bottom Banner  Start */}
+
+            <div>
+
+                <div className="btmbanner">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-5">
+                                <h3 className="display-4 fw-bold btmtitle">We’ve helped thousands of startups take off, and continue to help more every day.</h3>
+                                <p className="btmpara">Since 2020, we’ve been honored to be at the forefront of revolutionizing the entrepreneurial ecosystem and creating lasting positive impact across the country.</p>
+                            </div>
+                            <div className="col-sm-7">
+                                <img className="img-fluid btmimg ms-auto" src="../Media/Images/man.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* Bottom Banner  End */}
+
 
         </div>
     );
