@@ -387,4 +387,8 @@ margin-top:-7px
   .btmbanner {
     text-align: center;
   }
+
+  video{
+    display: hidden;
+  }
 }

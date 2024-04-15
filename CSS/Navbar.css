@@ -1,13 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .navbar-nav .nav-link{
-  color: #fff;
+  color: black;
+  font-family: "Quicksand";
+  font-weight: 600;
+}
+
+
+
+.navbar-brand{
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 48px;
 }
 .dropend .dropdown-toggle{
   color: salmon;
   margin-left: 1em;
 }
+
+.dropdown-item{
+  font-family: "Quicksand";
+  font-weight: 600;
+}
+
 .dropdown-item:hover{
-  background-color: lightsalmon;
-  color: #fff;
+  background-color: white;
+  font-family: "Quicksand";
+  font-weight: 600;
+  color: black;
 }
 .dropdown .dropdown-menu{
   display: none;

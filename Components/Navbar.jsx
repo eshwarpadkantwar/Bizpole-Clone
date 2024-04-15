@@ -3,49 +3,49 @@ import "../CSS/Navbar.css"
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: 'salmon' }}>
+    <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: 'white' }}>
       <div className="container-fluid">
-        <a className="navbar-brand fw-bold" href="#">Bizpole</a>
+        <a className="navbar-brand fw-bold text-dark ms-3" href="#">Bizpole</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <div className="collapse navbar-collapse text-dark" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             
             <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Incorporation
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a className="dropdown-item" href="#">Private Limited Company</a></li>
-                <li><a className="dropdown-item" href="#">Limited Liability Partnership</a></li>
-                <li><a className="dropdown-item" href="#">Partnership Firm</a></li>
-                <li><a className="dropdown-item" href="#">One Person Company</a></li>
-                <li><a className="dropdown-item" href="#">Proprietorship Firm</a></li>
-                <li><a className="dropdown-item" href="#">Public Limited Company</a></li>
-                <li><a className="dropdown-item" href="#">Section 8 Company</a></li>
-                <li><a className="dropdown-item" href="#">Nidhi Company</a></li>
-                <li><a className="dropdown-item" href="#">Producer Company</a></li>
-                <li><a className="dropdown-item" href="#">Trust</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Private Limited Company</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Limited Liability Partnership</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Partnership Firm</a></li>
+                <li><a className="dropdown-item text-dark" href="#">One Person Company</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Proprietorship Firm</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Public Limited Company</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Section 8 Company</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Nidhi Company</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Producer Company</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Trust</a></li>
               </ul>
             </li>
 
             <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 IPR
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a className="dropdown-item" href="#">Trademark Registration</a></li>
-                <li><a className="dropdown-item" href="#">Trademark Assignment</a></li>
-                <li><a className="dropdown-item" href="#">Trademark Objection</a></li>
-                <li><a className="dropdown-item" href="#">Trademark Hearing</a></li>
-                <li><a className="dropdown-item" href="#">Copyright Hearing</a></li>
-                <li><a className="dropdown-item" href="#">Patent Registration</a></li>
+              <li><a className="dropdown-item text-dark" href="#">Trademark Registration</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Trademark Assignment</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Trademark Objection</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Trademark Hearing</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Copyright Hearing</a></li>
+                <li><a className="dropdown-item text-dark" href="#">Patent Registration</a></li>
               </ul>
             </li>
 
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Taxes
               </a>
               <ul className="dropdown-menu">
@@ -82,7 +82,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Compliances Package
               </a>
               <ul className="dropdown-menu">
@@ -139,10 +139,10 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link text-light" aria-current="page" href="#">Blog</a>
+              <a className="nav-link text-dark" aria-current="page" href="#">Blog</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">Channel Partner</a>
+              <a className="nav-link text-dark" href="#">Channel Partner</a>
             </li>
           </ul>
           
