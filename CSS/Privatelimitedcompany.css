@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  /*.logo {
+    order: 1;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    order: 2;
+  }
+  
+  nav ul a {
+    color: #000000;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+  }*/
+  
+  main{
+    background-color: #e86458;
+  }
+
+  .herocontainer{
+    height: 850px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    
+    
+  }
+  
+  .herocontainer .heroimg{
+    width: 100%;
+    height: 500px;
+  }
+  
+  .herocontent {
+    width: 80%;
+    font-family: "Quicksand";
+    margin-right: 20%;
+  }
+  
+  .herocontent .herotitle {
+    font-size: 3.3rem;
+    margin-bottom: 12px;
+    color: white;
+    
+
+  }
+  
+  .herocontent  .heropara {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: white;
+    
+  }
+  
+  .herobtn{
+    padding: 1em 2.1em 1.1em;
+    border-radius: 4px;
+    margin: 8px;
+    border: none;
+    background-color: #e2e273;
+    color: #000000;
+    font-weight: 800;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 0em -0.2rem 0em #e2e273 inset;
+    transition: color 3s ease-in-out;
+  }
+  
+  .herobtn:hover {
+    background-color: transparent;
+    color: #8b4513;
+    border: 3px solid #e2e273;
+    cursor: pointer;
+  }
+
+
+  /* Form */
+
+  .contact-form {
+    text-align: center;
+    font-family: "Quicksand";
+    padding: 2.5rem 2rem;
+    max-width: 27rem;
+    border-radius: 0.8rem;
+    /* margin-inline: auto; */
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-right: 10%;
+    margin-top: 10%;
+    float: right;
+    height: 650px;
+    
+    
+    
+}
+
+
+.contact-form h2 {
+    font-size: 1.8rem;
+    color: #524a4e;
+    margin: 0;
+    font-weight: 800;
+}
+
+.contact-form p {
+    margin-top: 0.5rem;
+}
+
+.contact-form form {
+    text-align: left;
+    padding-top: 0.2rem;
+}
+
+.contact-form label {
+    color: #524a4e;
+}
+
+.contact-form input:not([type="submit"]) {
+    height: 2.5rem;
+}
+
+.contact-form .forminput {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    border-radius: 0.3rem;
+    margin: 0.3rem 0 1rem 0;
+    background-color: #f6f6f6;
+    border: 1px solid #e86458;
+    color: #e86458;
+}
+
+.contact-form .forminput[type="submit"] {
+    background-color: #524a4e;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    margin-bottom: 0;
+}
+
+.forminput::placeholder{
+    color: salmon;
+    padding: 0 0 0 2%;
+}
+
+.checkpara{
+    display: flex;
+    color: #e86458;
+    
+}
+
+.checkbox {
+    height: 65px;
+    width: 65px;
+    margin-right: 2%;
+}
+
+.send_email{
+    background-color: #fdc31a;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 40px 10px;
+    color: black;
+    font-weight: 600;
+    margin-left: 33%;
+}
+
+
+/* Banner 2 */
+
+.banner2plc{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: "Quicksand";
+}
+
+.innerplc{
+    background-color: #fdc31a;
+    padding: 80px 80px 80px;
+    border-radius: 20px;
+    color: white;
+}
+
+.banner2title{
+    font-weight: 600;
+}
+
+.banner2para{
+    font-weight: 600;
+    gap: 10%;
+}
+
+/*6 reasons*/
+
+.sixreasons{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: "Quicksand";
+}
+
+.imglayout353 {
+    max-width: 100%;
+    height: auto;
+	position:relative;
+  }
+  .layout353_content-item{
+  padding: 30px;
+    border: 2px solid #e86458;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+	z-index: 2;
+	
+  }
+
+  .sixreasonsnum{
+    font-weight: 600;
+    font-size: 43px;
+    color: #e86458;
+  }
+  
+  
+  
+  /*.sticky {   
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: -2;
+}  */ /*This is for the overlapping effect*/
+
+  
+  .layout353_content-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: 768px) {
+    .layout353_content-left {
+      width: 50%;
+    }
+  }
+
+  .layout353_content-right {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .layout353_content-right {
+      width: 50%;
+      float: right;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Media queries */
+  
+  @media (max-width: 884px) {
+    .herocontainer {
+      margin-top: 10px;
+      height: 100vh;
+      flex-direction: column;
+    }
+    .herocontent  {
+      width: 100%;
+      text-align: center;
+    }
+    .herocontent  .herotitle {
+        margin-top: 15%;
+      font-size: 30px;
+    }
+    .herocontent  .heropara {
+        font-size: 1rem;
+      }
+  }
+  
+  @media (max-width: 730px) {
+    .contact-form {
+      height: 800px;
+    }
+}
+  
+
+    
+
+    @media (max-width: 730px) {
+        .herocontainer {
+          height: 100%;
+        }
+    }
+
+    
+
+    
+
+    
+  

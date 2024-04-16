@@ -15,7 +15,7 @@
     padding: 0.5em 1.5em;
     border-radius: 2em;
     box-shadow: 5px 5px 5px rgba(105, 73, 73, 0.15);
-    background-color: #e86458;;
+    background-color: #e86458;
   }
 
 
@@ -149,6 +149,10 @@
     width: 50vw;
   }
 
+  .inner{
+    font-family: "Quicksand";
+  }
+
   .journeytitle{
     font-family: "Quicksand";
     font-weight: 800;
@@ -157,7 +161,7 @@
   
 
   .journeytitlep{
-    /* font-family: "Quicksand Regular"; */
+    font-family: "Quicksand ";
     font-weight: -100;
     margin-top: 1rem;
   }
