@@ -13,7 +13,7 @@ function Footer() {
                 <div className="container px-5">
                     <div className="row">
                         <div className="col-6 col-lg-4">
-                            <h1 className="fw-bold">Bizpole</h1>
+                            <h1 className="fw-bold">Kalpa Tag</h1>
                             <p className="pt-2">Business consulting and services for entrepreneurs and small businesses in India.</p>
                             <h2 className="mb-3">Reach Us</h2>
                             <p className="mb-2"><FontAwesomeIcon icon={faLocationDot} />  Banglore | Kerala</p>

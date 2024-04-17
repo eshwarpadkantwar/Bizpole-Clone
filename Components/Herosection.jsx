@@ -1,10 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "../CSS/Herosection.css";
 
 function Herosection() {
     const [text, setText] = useState("Tax Filing");
     const alternateTexts = ["Compliance", "Incorporation", "Tax Filing"];
     let index = 0;
+
+    const carouselRef = useRef(null);
+
+    
 
     useEffect(() => {
         const intervalId = setInterval(() => {
@@ -18,15 +22,27 @@ function Herosection() {
 
     const testimonials = [
         { name: 'John Doe', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', pic: "https://www.bizpole.in/images/navy.png" },
-        { name: 'Jane Smith', review: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', pic: "https://www.bizpole.in/images/Nilesh-Kadam-Delpick-Photo.png" },
-        { name: 'Alice Johnson', review: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', pic: "https://www.bizpole.in/images/Nilesh-Kadam-Delpick-Photo.png" },
-        { name: 'Bob Williams', review: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', pic: "https://www.bizpole.in/images/navy.png" },
-        { name: 'Emily Brown', review: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', pic: "https://www.bizpole.in/images/Nilesh-Kadam-Delpick-Photo.png" },
-        { name: 'Michael Wilson', review: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.', pic: "https://www.bizpole.in/images/navy.png" },
-        { name: 'Sarah Martinez', review: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.', pic: "https://www.bizpole.in/images/Nilesh-Kadam-Delpick-Photo.png" },
-        { name: 'David Jones', review: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?', pic: "https://www.bizpole.in/images/navy.png" }
+        { name: 'Jane Smith', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', pic: "https://www.bizpole.in/images/Nilesh-Kadam-Delpick-Photo.png" },
+        { name: 'Alice Johnson', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', pic: "https://www.bizpole.in/images/Nilesh-Kadam-Delpick-Photo.png" },
+        { name: 'Bob Williams', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', pic: "https://www.bizpole.in/images/navy.png" },
+        { name: 'Emily Brown', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', pic: "https://www.bizpole.in/images/Nilesh-Kadam-Delpick-Photo.png" },
+        { name: 'Michael Wilson', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', pic: "https://www.bizpole.in/images/navy.png" },
+        { name: 'Sarah Martinez', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', pic: "https://www.bizpole.in/images/Nilesh-Kadam-Delpick-Photo.png" },
+        { name: 'David Jones', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', pic: "https://www.bizpole.in/images/navy.png" }
     ];
 
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            if (carouselRef.current) {
+                const carousel = carouselRef.current;
+                const currentIndex = Number(carousel.querySelector('.carousel-item.active').getAttribute('data-bs-slide-to'));
+                const nextIndex = (currentIndex + 1) % testimonials.length;
+                carousel.querySelector(`[data-bs-slide-to="${nextIndex}"]`).click();
+            }
+        }, 2000); //Clients Review - Change interval time as needed (5000 milliseconds = 5 seconds)
+
+        return () => clearInterval(intervalId);
+    }, [testimonials.length]);
 
 
     return (
@@ -428,6 +444,7 @@ function Herosection() {
 
 
             {/* Bottom Banner  End */}
+
 
 
         </div>

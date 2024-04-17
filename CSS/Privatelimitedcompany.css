@@ -46,7 +46,7 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     
     
     
@@ -226,6 +226,11 @@
     font-family: "Quicksand";
 }
 
+.sixreasonstitle{
+  font-weight: 800;
+}
+
+
 .imglayout353 {
     max-width: 100%;
     height: auto;
@@ -262,24 +267,152 @@
     margin-bottom: 20px;
   }
 
-  @media (min-width: 768px) {
-    .layout353_content-left {
-      width: 50%;
-    }
-  }
+ 
 
-  .layout353_content-right {
-    width: 100%;
-  }
+/* Criteria */
 
-  @media (min-width: 768px) {
-    .layout353_content-right {
-      width: 50%;
-      float: right;
-    }
-  }
+.criteria{
+  background-color: #fdc31a;
+  font-family: "Quicksand";
+  padding: 10px 70px 70px 10px;
+}
+.criteriacontainer{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.criteriatitle{
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.criteriatabs{
+  margin-top: 7%;
+}
+
+.criteriabox{
+  padding: 20px 30px 30px 20px;
+  line-height: 3rem;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.criteriabtn{
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+ 
+}
+
+/* Clients Review */
+
+.clientsreviewouterdiv{
+  margin-top: 5.5rem;
+  margin-bottom: 7rem;
+}
+
+.clientheadingplc{
+  margin-top: 5.5rem;
+  
+}
+
+.clientheadingplcinneplc{
+
+  font-family: "Quicksand";
+  font-weight: 800;
+  font-size: 48px;
+  text-align: center;
+}
+
+#tcardplc{
+  border: 2px solid #e86458;
+  padding: 2rem;
+  height: 20rem !important;
+  width: auto;
+  border-radius: 20px;
+}
+
+.testimonialimgplc{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+#tcardplcbodyplc{
+  text-align: center;
+}
+
+/* Company Regn Banner */
 
 
+
+.trust_reg_location {
+  color: white;
+  padding: 20px;
+  
+}
+
+.trust_reg_location ul {
+  list-style-type: none;
+  
+  padding: 0;
+}
+
+.trust_reg_location ul li {
+  margin-bottom: 10px;
+  
+}
+
+.trust_reg_locationplca{
+  text-decoration: none;
+  font-family: "Quicksand";
+  color: white;
+}
+
+.trust_reg_locationplca:hover{
+  text-decoration: none;
+  font-family: "Quicksand";
+  color: black;
+}
+
+
+
+/* Add this CSS */
+.row.location-row>div {
+  flex: 1;
+}
+
+.row.location-row>div ul {
+  columns: 3;
+}
+
+.row.location-row>div ul li {
+  margin-bottom: 5px;
+}
+
+.regn_company{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: #e86458;
+}
+
+
+/*Get in touch*/
+
+.touch{
+  background-color: #fdc31a;
+  font-family: "Quicksand";
+  text-align: center;
+  padding: 100px 100px 100px;
+}
+
+.intouchbtn{
+  padding: 10px 40px 10px;
+  border-radius: 20px;
+  background-color: #e86458;
+  border: none;
+  font-weight: 600;
+}
 
 
 
@@ -311,6 +444,7 @@
         font-size: 1rem;
       }
   }
+
   
   @media (max-width: 730px) {
     .contact-form {
@@ -318,18 +452,72 @@
     }
 }
   
-
-    
-
     @media (max-width: 730px) {
         .herocontainer {
           height: 100%;
         }
     }
 
-    
+    @media (min-width: 741px) and (max-width: 884px) {
+      .herocontainer {
+        height: 1100px;
+      }
+  }
 
-    
+  @media (min-width: 350px) and (max-width: 400px) {
+    .herocontainer {
+      height: 1300px;
+    }
+    .send_email{
+      
+      margin-left: 80px;
+    }
+}
+  
+
+  @media (min-width: 885px) and (max-width: 1067px) {
+    .herocontainer {
+      height: 1100px;
+    }
+}
+  
+
+ @media (max-width: 730px) {
+    .contact-form {
+      height: 800px;
+    }
+}
+
+    @media (min-width: 768px) {
+      .layout353_content-left {
+        width: 50%;
+      }
+    }
+  
+    .layout353_content-right {
+      width: 100%;
+    }
+  
+    @media (min-width: 768px) {
+      .layout353_content-right {
+        width: 50%;
+        float: right;
+      }
+    }  
+
+    @media (min-width: 600px) {
+      .criteriabox{
+        padding: 20px 30px 30px 20px;
+        line-height: 3rem;
+        border-radius: 15px;
+        font-size: 18px;
+        width: 100%;
+      }
+
+      .criteriacontainer{
+        width:100%
+      }
+    }  
 
     
   
