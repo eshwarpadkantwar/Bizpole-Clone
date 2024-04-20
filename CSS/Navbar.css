@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+
+.kalpanavbar{
+  background-color: #fdc31a;
+}
+
 .navbar-nav .nav-link{
   color: black;
   font-family: "Quicksand";

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../CSS/Privatelimitedcompany.css";
 
-function Privatelimitedcompany() {
+function Onepersoncompany() {
 
 
   const [activeTab, setActiveTab] = useState('tabs-1');
@@ -47,7 +47,7 @@ function Privatelimitedcompany() {
             
 
             <form className="actualform">
-            <h2 className="formplctitle">Private Limited Company</h2>
+            <h2 className="formplctitle text-center">One Person Company</h2>
               <input className="forminput" type="text" name="name" placeholder=" Name" />
 
               <input className="forminput" type="email" name="email" placeholder=" Email" />
@@ -751,15 +751,15 @@ function Privatelimitedcompany() {
                             </div> */}
               <div className="checkpara">
                 <input type="checkbox" className="checkbox" id="" />
-                <p>I authorize Bizpole and its representative to contact me with updates and notifications via Email, SMS, WhatsApp, and Call. This will override the registry on DND/NDNC.</p>
+                <p>I authorize Kalpa Tag and its representative to contact me with updates and notifications via Email, SMS, WhatsApp, and Call. This will override the registry on DND/NDNC.</p>
               </div>
 
               <button className="send_email btn  btn btn_yellow_" type="submit" data-loading-text="Sending...">Send</button>
             </form>
           </section>
           <div className="hero-text herocontent">
-            <h1 className="herotitle">Take the first step to creating your own brand and business</h1>
-            <p className="heropara">Setting up a private limited company is one of the quickest ways to start a business in India. With a little bit of paperwork and some patience, you can be on your way to your new business venture.</p>
+            <h1 className="herotitle">One Person Company. One simple registration</h1>
+            <p className="heropara">Starting a business on your own? Protect yourself by becoming an OPC and limiting your liability. Register as an OPC today and enjoy the convenience of simple processing at no extra cost.</p>
           </div>
         </div>
       </main>
@@ -771,18 +771,14 @@ function Privatelimitedcompany() {
             <div className="col-lg-6 col-sm-12 col-12">
               <div className="help_txt">
                 <h2 className="color_white banner2title" style={{ marginBottom: '0px', textAlign: 'left' }}>
-                  Prosper with a private limited company
+                All of the rewards, none of the risks
                 </h2>
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 col-12">
               <div className="help_txt">
                 <p className="text-left color_white mt-3 banner2para">
-                  Most new businesses in India opt for a private limited company due to the flexibility it offers. You can
-                  make your own rules, appoint board members and decide whom to partner with — all within limits. Private
-                  limited company offers limited liability for its shareholders, with certain restrictions placed on
-                  ownership. This makes a private limited company ideal for companies that wish to raise funds from the
-                  public.
+                In a One-Person Company (OPC), a single promoter acquires complete control over the business, limiting his or her liability for contributions made to the enterprise. The idea of OPC was established to assist entrepreneurs who are capable of launching their own businesses on their own.
                 </p>
               </div>
             </div>
@@ -801,8 +797,8 @@ function Privatelimitedcompany() {
                 <div className="row">
                   <div className="col-md-6 layout353_content-left">
                     <div>
-                      <h2 className="heading-xxlarge sixreasonstitle">6 Reasons to choose Private Limited Company</h2>
-                      <p className="text-size-large sixreasonspara">Registering as a private limited company offers many benefits. It helps:</p>
+                      <h2 className="heading-xxlarge sixreasonstitle">4 reasons to choose One Person Company</h2>
+                      <p className="text-size-large sixreasonspara">Here are the major reasons why people prefer One Person Company:</p>
                       <div className="core-values-graphic-wrapper">
                         <img className="core-values-image imglayout353" src="https://www.bizpole.in/images/step/thump.png" alt="Clipart bizpole" />
                       </div>
@@ -812,37 +808,25 @@ function Privatelimitedcompany() {
                     <div className="layout353_content-item content-item-1 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">01</div>
                       <div>
-                        <h5>Safeguards against potential risks and protection from personal liability</h5>
+                        <h5>You can sleep easy knowing your personal property is safe in a private limited company, no matter the debts of the business</h5>
                       </div>
                     </div>
                     <div className="layout353_content-item content-item-2 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">02</div>
                       <div>
-                        <h5>Attracts more customers</h5>
+                        <h5>Less paperwork to complete and comply with compared to being a private limited company</h5>
                       </div>
                     </div>
                     <div className="layout353_content-item content-item-3 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">03</div>
                       <div>
-                        <h5>Obtain bank credits and good investment from reliable investors easily</h5>
+                        <h5>As an OPC Company has a separate legal identity, it will continue to exist and can even be passed on to your nominee(s)</h5>
                       </div>
                     </div>
                     <div className="layout353_content-item content-item-4 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">04</div>
                       <div>
-                        <h5>Offers liability protection to protect your personal assets</h5>
-                      </div>
-                    </div>
-                    <div className="layout353_content-item content-item-5 sticky">
-                      <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">05</div>
-                      <div>
-                        <h5>Improves stability and capital contribution</h5>
-                      </div>
-                    </div>
-                    <div className="layout353_content-item content-item-6 sticky">
-                      <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">06</div>
-                      <div>
-                        <h5>Increases the possibility of business expansion</h5>
+                        <h5>OPC can own a property on company name</h5>
                       </div>
                     </div>
                   </div>
@@ -861,7 +845,7 @@ function Privatelimitedcompany() {
           <div className="head_sec ">
             <div className="row align-items-center">
               <div className="col-lg-10 col-sm-12 ">
-                <h2 className="criteriatitle">Private Limited Registration <br /> made easy!</h2>
+                <h2 className="criteriatitle">One Person Company registration<br /> made easy!</h2>
                 <li className="criteriapara">Here’s everything you need to know:</li>
               </div>
             </div>
@@ -882,16 +866,14 @@ function Privatelimitedcompany() {
           <div className="tab-content">
             <div className={`tab-pane ${activeTab === 'tabs-1' ? 'active' : ''}`} id="tabs-1" role="tabpanel">
               <div className="round_box criteriabox ms-auto bg-white">
-                <li className="p_rel">✔ Minimum 2 directors </li>
-                <li className="p_rel">✔ A unique name for your business</li>
-                <li className="p_rel">✔ Minimum authorized capital of at least ₹1 lakh </li>
-                <li className="p_rel">✔ A registered office </li>
+                <li className="p_rel">✔ Minimum 2 persons (1 director and 1 nominee)</li>
+                <li className="p_rel">✔ Indian citizens and residents as members</li>
               </div>
             </div>
             <div className={`tab-pane ${activeTab === 'tabs-2' ? 'active' : ''}`} id="tabs-2" role="tabpanel">
               <div className="bg-white criteriabox">
-                <li>You would need scanned copies of:</li>
-                <li><b>Director's Documents</b></li>
+                
+              <li><b>Director's Documents</b></li>
                 <li className="p_rel">✔ Director's PAN</li>
                 <li className="p_rel">✔ Director's ID Proofs</li>
                 <li className="p_rel">✔ Aadhaar Card or Voter ID or Passport or Driver's License</li>
@@ -904,6 +886,11 @@ function Privatelimitedcompany() {
                 <li className="p_rel">✔ Director's Email ids</li>
                 <li className="p_rel">✔ Incase of Foreign directors, International Passport is mandatory</li>
 
+                <li><b>Nominee Documents</b></li>
+                <li className="p_rel">✔ Nominees ID Proofs</li>
+                <li className="p_rel">✔ Aadhaar Card or Voter ID or Passport or Driver's License</li>
+                <li className="p_rel">✔ Nominees PAN</li>
+
                 <li><b>Company Documents</b></li>
                 <li className="p_rel">✔ Registered Office Address Proof: Latest Power Bill</li>
                 <li className="p_rel">✔ No-objection letter from the Landlord.</li>
@@ -915,17 +902,12 @@ function Privatelimitedcompany() {
               <div className="steps criteriabox bg-white">
                 <div className="step ">
                   <div >
-                    <li><b>Step 1:</b> Arrange basic documents of Partners</li>
-                    <li><b>Step 2:</b> Fill in an online form with accurate information</li>
-                    <li><b>Step 3:</b> Apply for Digital Signature and DIN of Partners</li>
-                    <li><b>Step 4:</b> Prepare all legal documents</li>
-                    <li><b>Step 5:</b> Apply for name availability </li>
-                    <li><b>Step 6:</b> Submit MoA, AoA, Declaration from Directors and Affidavits of the Directors </li>
-                    <li><b>Step 7:</b> Collect Subscriber information such as address, occupation, nature of shares, number
-                      of shares subscribed etc </li>
-                    <li><b>Step 8:</b> Apply for the PAN and TAN of the company </li>
-                    <li><b>Step 9:</b> Obtain certificate of incorporation by ROC with a PAN and TAN </li>
-                    <li><b>Step 10:</b> Open a current bank account on the company’s name </li>
+                    <li><b>Step 1:</b> Apply for Digital Signature of director</li>
+                    <li><b>Step 2:</b> Apply for name approval</li>
+                    <li><b>Step 3:</b> Prepare incorporation documents</li>
+                    <li><b>Step 4:</b> Draft and apply for MoA and AoA</li>
+                    <li><b>Step 5:</b> File for the incorporation</li>
+                    
                   </div>
                 </div>
               </div>
@@ -1000,49 +982,20 @@ function Privatelimitedcompany() {
       {/* Clients Reviews End */}
 
       {/* Company regn banner start*/}
-      <div className="regn_company">
+      {/* <div className="regn_company">
   <div className="container company_reg">
     <section className="trust_reg_location ">
       <div className="row location-row">
         <div className="col-md-4">
           <ul className="list-unstyled ">
             
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Kochi</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Kozhikode</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Trivandrum</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Thrissur</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Malappuram</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Chennai</a></li>
-            
+            <li> <a className="btn btn-link trust_reg_locationplca text-center" href="">LLP Registration in Kerla & Chennai</a></li>
           </ul>
         </div>
-        <div className="col-md-4">
-          <ul className="list-unstyled ">
-          
-            <li className="trust_reg_locationplcli"> <a className="btn btn-link trust_reg_locationplca" href=".html">Company Registration in Coimbatore</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Madurai</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Salem</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Erode</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Tiruchy</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Tirupur</a></li>
-           
-          </ul>
-        </div>
-            <div className="col-md-4">
-            <ul className="list-unstyled ">
-            
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Hyderabad</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Mysore</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Belgaum</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Hubli</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Mangalore</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Bangalore</a></li>
-          </ul>
-            </div>
           </div>
         </section>
       </div>
-    </div>
+    </div> */}
       {/* Company regn banner end*/}
       
       {/* Get in touch start */}
@@ -1060,4 +1013,4 @@ function Privatelimitedcompany() {
   )
 }
 
-export default Privatelimitedcompany;
+export default Onepersoncompany;

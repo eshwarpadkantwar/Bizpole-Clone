@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "../CSS/Privatelimitedcompany.css";
 
-function Privatelimitedcompany() {
+
+function ITReturn() {
 
 
   const [activeTab, setActiveTab] = useState('tabs-1');
@@ -44,10 +45,10 @@ function Privatelimitedcompany() {
 
           {/* Form */}
           <section className="contact-form">
-            
+
 
             <form className="actualform">
-            <h2 className="formplctitle">Private Limited Company</h2>
+              <h2 className="formplctitle text-center">Income tax Return</h2>
               <input className="forminput" type="text" name="name" placeholder=" Name" />
 
               <input className="forminput" type="email" name="email" placeholder=" Email" />
@@ -751,15 +752,15 @@ function Privatelimitedcompany() {
                             </div> */}
               <div className="checkpara">
                 <input type="checkbox" className="checkbox" id="" />
-                <p>I authorize Bizpole and its representative to contact me with updates and notifications via Email, SMS, WhatsApp, and Call. This will override the registry on DND/NDNC.</p>
+                <p>I authorize Kalpa Tax and its representative to contact me with updates and notifications via Email, SMS, WhatsApp, and Call. This will override the registry on DND/NDNC.</p>
               </div>
 
               <button className="send_email btn  btn btn_yellow_" type="submit" data-loading-text="Sending...">Send</button>
             </form>
           </section>
           <div className="hero-text herocontent">
-            <h1 className="herotitle">Take the first step to creating your own brand and business</h1>
-            <p className="heropara">Setting up a private limited company is one of the quickest ways to start a business in India. With a little bit of paperwork and some patience, you can be on your way to your new business venture.</p>
+            <h1 className="herotitle">Declare Tax Returns with ease</h1>
+            <p className="heropara">Bizpole offers an error-proof expert package to handle your IT returns proficiently. We are already known to be one of the most experienced IT Return Preparation Service Providers in India who understands how tax filing can be tricky.</p>
           </div>
         </div>
       </main>
@@ -768,24 +769,34 @@ function Privatelimitedcompany() {
       <div className="banner2plc">
         <div className="container innerplc">
           <div className="row align-items-center bg_white_box">
-            <div className="col-lg-6 col-sm-12 col-12">
+            <div>
               <div className="help_txt">
-                <h2 className="color_white banner2title" style={{ marginBottom: '0px', textAlign: 'left' }}>
-                  Prosper with a private limited company
+                <h2 className="color_white banner2title " style={{ marginBottom: '0px', textAlign: 'center' }}>
+                Should you be filing your ITR already?
                 </h2>
+                <h6 className="mt-3">The following are the predetermined criteria for people eligible to file ITR:</h6>
+                <div className="text-left">
+                    <li>a) Any individual earning more than ₹2.5 lakhs, ₹3 lakhs or ₹5 lakhs</li>
+                    <li>b) Individuals who are salaried and have gross incomes that are greater than the exemption amount (as defined by sections 80C to 80U).</li>
+                    <li>c) Every business, whether private limited, LLP, or partnership, is required to file IT returns regardless of profit or loss.</li>
+                    <li>d) Directors of Private Limited Companies and partners in Limited Liability Partnerships.</li>
+                    <li>e) People who receive dividend payments from stocks, bonds, mutual funds, fixed deposits, interest, and other sources.</li>
+                    <li>f) People who receive income from voluntary contributions, charitable or religious trusts.</li>
+                    <li>g) Individuals and businesses seeking tax refunds</li>
+                    <li>h) NRIs, tech experts on onsite deputies, and anyone with assets or income abroad.</li>
+                </div>
               </div>
             </div>
-            <div className="col-lg-6 col-sm-12 col-12">
+            {/* <div className="col-lg-6 col-sm-12 col-12">
               <div className="help_txt">
                 <p className="text-left color_white mt-3 banner2para">
-                  Most new businesses in India opt for a private limited company due to the flexibility it offers. You can
-                  make your own rules, appoint board members and decide whom to partner with — all within limits. Private
-                  limited company offers limited liability for its shareholders, with certain restrictions placed on
-                  ownership. This makes a private limited company ideal for companies that wish to raise funds from the
-                  public.
+                The following are the predetermined criteria for people eligible to file ITR:
+                
                 </p>
+                <ol>Any individual earning more than ₹2.5 lakhs, ₹3 lakhs or ₹5 lakhs</ol>
+                <ol>Individuals who are salaried and have gross incomes that are greater than the exemption amount (as defined by sections 80C to 80U).</ol>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -801,8 +812,8 @@ function Privatelimitedcompany() {
                 <div className="row">
                   <div className="col-md-6 layout353_content-left">
                     <div>
-                      <h2 className="heading-xxlarge sixreasonstitle">6 Reasons to choose Private Limited Company</h2>
-                      <p className="text-size-large sixreasonspara">Registering as a private limited company offers many benefits. It helps:</p>
+                      <h2 className="heading-xxlarge sixreasonstitle">5 Reasons to opt for IT Returns</h2>
+                      <p className="text-size-large sixreasonspara">Here are the major reasons why people opt for this service:</p>
                       <div className="core-values-graphic-wrapper">
                         <img className="core-values-image imglayout353" src="https://www.bizpole.in/images/step/thump.png" alt="Clipart bizpole" />
                       </div>
@@ -812,37 +823,31 @@ function Privatelimitedcompany() {
                     <div className="layout353_content-item content-item-1 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">01</div>
                       <div>
-                        <h5>Safeguards against potential risks and protection from personal liability</h5>
+                        <h5>Bank loans can be availed easily and in a hassle-free manner.</h5>
                       </div>
                     </div>
                     <div className="layout353_content-item content-item-2 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">02</div>
                       <div>
-                        <h5>Attracts more customers</h5>
+                        <h5>Most visa application centers and embassies require you to submit IT returns along with other documents as proof.</h5>
                       </div>
                     </div>
                     <div className="layout353_content-item content-item-3 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">03</div>
                       <div>
-                        <h5>Obtain bank credits and good investment from reliable investors easily</h5>
+                        <h5>Proper filing of IT returns allows you to carry forward your losses to subsequent years.</h5>
                       </div>
                     </div>
-                    <div className="layout353_content-item content-item-4 sticky">
+                    <div className="layout353_content-item content-item-3 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">04</div>
                       <div>
-                        <h5>Offers liability protection to protect your personal assets</h5>
+                        <h5>It is always preferable to file income tax returns in order to avoid legal repercussions and hefty fines.</h5>
                       </div>
                     </div>
-                    <div className="layout353_content-item content-item-5 sticky">
+                    <div className="layout353_content-item content-item-3 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">05</div>
                       <div>
-                        <h5>Improves stability and capital contribution</h5>
-                      </div>
-                    </div>
-                    <div className="layout353_content-item content-item-6 sticky">
-                      <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">06</div>
-                      <div>
-                        <h5>Increases the possibility of business expansion</h5>
+                        <h5>To avoid late fee and penalty for non filing of ITR</h5>
                       </div>
                     </div>
                   </div>
@@ -861,7 +866,7 @@ function Privatelimitedcompany() {
           <div className="head_sec ">
             <div className="row align-items-center">
               <div className="col-lg-10 col-sm-12 ">
-                <h2 className="criteriatitle">Private Limited Registration <br /> made easy!</h2>
+                <h2 className="criteriatitle">IT Returns<br /> made easy!</h2>
                 <li className="criteriapara">Here’s everything you need to know:</li>
               </div>
             </div>
@@ -869,67 +874,60 @@ function Privatelimitedcompany() {
 
           <ul className="nav  nav-tabs criteriatabs me-auto" role="tablist">
             <li className="nav-item">
-              <button className={`nav-link criteriabtn ${activeTab === 'tabs-1' ? 'active' : ''}`} onClick={() => handleTabClick('tabs-1')} role="tab">Eligibility Criteria</button>
+              <button className={`nav-link criteriabtn ${activeTab === 'tabs-1' ? 'active' : ''}`} onClick={() => handleTabClick('tabs-1')} role="tab">Guidelines</button>
             </li>
             <li className="nav-item">
               <button className={`nav-link criteriabtn ${activeTab === 'tabs-2' ? 'active' : ''}`} onClick={() => handleTabClick('tabs-2')} role="tab">Documents Required</button>
-            </li>
-            <li className="nav-item">
-              <button className={`nav-link criteriabtn ${activeTab === 'tabs-3' ? 'active' : ''}`} onClick={() => handleTabClick('tabs-3')} role="tab">Process</button>
             </li>
           </ul>
 
           <div className="tab-content">
             <div className={`tab-pane ${activeTab === 'tabs-1' ? 'active' : ''}`} id="tabs-1" role="tabpanel">
               <div className="round_box criteriabox ms-auto bg-white">
-                <li className="p_rel">✔ Minimum 2 directors </li>
-                <li className="p_rel">✔ A unique name for your business</li>
-                <li className="p_rel">✔ Minimum authorized capital of at least ₹1 lakh </li>
-                <li className="p_rel">✔ A registered office </li>
+                <li>For people or businesses that aren't being audited, the deadline to file income tax returns is July 31st.</li>
+                <li className="mt-3"><li>Those organizations or businesses that are subject to audits are required to submit their IT returns by October 31st</li></li>
+                <li>Individuals and businesses should submit their late returns by March 31st.</li>
+                <li className="p_rel mt-3">✔ With the Registrar of Companies</li>
+                <li className="p_rel mt-3">✔ As per the prescribed format of LLP Form 11</li>
+                <li className="p_rel mt-3">✔ Within 60 days from the close of the financial year, or the 30th of May of each year</li>
+                <li className="p_rel mt-3">✔ Such that the requirements are met even in the absence of business activity, a closed LLP, or an absent business bank account</li>
+               
               </div>
             </div>
             <div className={`tab-pane ${activeTab === 'tabs-2' ? 'active' : ''}`} id="tabs-2" role="tabpanel">
               <div className="bg-white criteriabox">
-                <li>You would need scanned copies of:</li>
-                <li><b>Director's Documents</b></li>
-                <li className="p_rel">✔ Director's PAN</li>
-                <li className="p_rel">✔ Director's ID Proofs</li>
-                <li className="p_rel">✔ Aadhaar Card or Voter ID or Passport or Driver's License</li>
-                <li className="p_rel">✔ Address Proofs:</li>
-                <li className="p_rel">✔ Latest one month Savings Bank statement or</li>
-                <li className="p_rel">✔ Latest Telephone Bill on his own name or</li>
-                <li className="p_rel">✔ Latest Moblie Bill on his name or</li>
-                <li className="p_rel">✔ Latest Electricity Bill on his own name.</li>
-                <li className="p_rel">✔ Director's latest passport size photograph</li>
-                <li className="p_rel">✔ Director's Email ids</li>
-                <li className="p_rel">✔ Incase of Foreign directors, International Passport is mandatory</li>
 
-                <li><b>Company Documents</b></li>
-                <li className="p_rel">✔ Registered Office Address Proof: Latest Power Bill</li>
-                <li className="p_rel">✔ No-objection letter from the Landlord.</li>
-                <li className="p_rel">✔ Rental Agreement from the landlord if the premises are rented.</li>
-                <li className="p_rel">✔ Company email id.</li>
+                
+                <li className="p_rel">✔ Investment proofs</li>
+                <li className="p_rel">✔ Asset purchase/sale documents</li>
+                <li className="p_rel">✔ TDS certificates provided by banks</li>
+                <li className="p_rel">✔ Interest income statement</li>
+                <li className="p_rel">✔ Receipts regarding donations mutual funds and other forms of investments</li>
+                <br /><li className="p_rel"><b> For employees</b></li>
+                <li className="p_rel">✔ PAN card</li>
+                <li className="p_rel">✔ Form 16 provided by your employer</li>
+                <li className="p_rel">✔ Salary slip (each month)</li>
+                <br /><li className="p_rel"><b> For business owners:</b></li>
+                <li className="p_rel">✔ Trading report</li>
+                <li className="p_rel">✔ Business account details</li>
+                <li className="p_rel">✔ Financial statements / Books of accounts</li>
+                <li className="p_rel">✔ Bank statements</li>
+               
               </div>
             </div>
-            <div className={`tab-pane ${activeTab === 'tabs-3' ? 'active' : ''}`} id="tabs-3" role="tabpanel">
+            {/* <div className={`tab-pane ${activeTab === 'tabs-3' ? 'active' : ''}`} id="tabs-3" role="tabpanel">
               <div className="steps criteriabox bg-white">
                 <div className="step ">
                   <div >
-                    <li><b>Step 1:</b> Arrange basic documents of Partners</li>
-                    <li><b>Step 2:</b> Fill in an online form with accurate information</li>
-                    <li><b>Step 3:</b> Apply for Digital Signature and DIN of Partners</li>
-                    <li><b>Step 4:</b> Prepare all legal documents</li>
-                    <li><b>Step 5:</b> Apply for name availability </li>
-                    <li><b>Step 6:</b> Submit MoA, AoA, Declaration from Directors and Affidavits of the Directors </li>
-                    <li><b>Step 7:</b> Collect Subscriber information such as address, occupation, nature of shares, number
-                      of shares subscribed etc </li>
-                    <li><b>Step 8:</b> Apply for the PAN and TAN of the company </li>
-                    <li><b>Step 9:</b> Obtain certificate of incorporation by ROC with a PAN and TAN </li>
-                    <li><b>Step 10:</b> Open a current bank account on the company’s name </li>
+                    <li><b>Step 1:</b> An application is to be made in Form ™-P by the assignor or assignee.</li>
+                    <li><b>Step 2:</b> Apply with the registrar of a trademark within six months from the date of procurement of the proprietorship.</li>
+                    <li><b>Step 3:</b> Advertise the assignment as the registrar may direct.</li>
+                    <li><b>Step 4:</b> A copy of the direction of the registrar and advertisement of the assignment must be submitted to the office to make sure that the directions have been followed.</li>
+                    <li><b>Step 5:</b> On the receipt of the trademark assignment application and documents required, the registrar shall register the assignee as the proprietor of the trademark</li>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -1000,59 +998,30 @@ function Privatelimitedcompany() {
       {/* Clients Reviews End */}
 
       {/* Company regn banner start*/}
-      <div className="regn_company">
+      {/* <div className="regn_company">
   <div className="container company_reg">
     <section className="trust_reg_location ">
       <div className="row location-row">
         <div className="col-md-4">
           <ul className="list-unstyled ">
             
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Kochi</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Kozhikode</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Trivandrum</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Thrissur</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Malappuram</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Chennai</a></li>
-            
+            <li> <a className="btn btn-link trust_reg_locationplca text-center" href="">LLP Registration in Kerla & Chennai</a></li>
           </ul>
         </div>
-        <div className="col-md-4">
-          <ul className="list-unstyled ">
-          
-            <li className="trust_reg_locationplcli"> <a className="btn btn-link trust_reg_locationplca" href=".html">Company Registration in Coimbatore</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Madurai</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Salem</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Erode</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Tiruchy</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Tirupur</a></li>
-           
-          </ul>
-        </div>
-            <div className="col-md-4">
-            <ul className="list-unstyled ">
-            
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Hyderabad</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Mysore</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Belgaum</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Hubli</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Mangalore</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Bangalore</a></li>
-          </ul>
-            </div>
           </div>
         </section>
       </div>
-    </div>
+    </div> */}
       {/* Company regn banner end*/}
-      
+
       {/* Get in touch start */}
-            <div className="touch">
-              <div className="contents">
-                <h1>Let our expert assist you right now</h1>
-                <p>Get immediate answers by chatting with one of our incorporation agents</p>
-                <a><button className="intouchbtn">Get in touch</button></a>
-              </div>
-            </div>
+      <div className="touch">
+        <div className="contents">
+          <h1>Let our expert assist you right now</h1>
+          <p>Get immediate answers by chatting with one of our incorporation agents</p>
+          <a><button className="intouchbtn">Get in touch</button></a>
+        </div>
+      </div>
 
       {/* Get in touch end */}
 
@@ -1060,4 +1029,4 @@ function Privatelimitedcompany() {
   )
 }
 
-export default Privatelimitedcompany;
+export default ITReturn;

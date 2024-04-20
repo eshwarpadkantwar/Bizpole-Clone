@@ -7,31 +7,7 @@
     text-decoration: none;
   }
   
-  /*.logo {
-    order: 1;
-    font-size: 2rem;
-    font-weight: 800;
-  }
   
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 64px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  
-  nav ul {
-    display: flex;
-    order: 2;
-  }
-  
-  nav ul a {
-    color: #000000;
-    font-size: 1.6rem;
-    margin-left: 2rem;
-  }*/
   
   main{
     background-color: #e86458;
@@ -46,7 +22,7 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
+    max-width: 100vw;
     
     
     
@@ -224,11 +200,18 @@
     margin-top: 10%;
     margin-bottom: 10%;
     font-family: "Quicksand";
+    
+}
+
+.sixreasonscontainer{
+  
+  margin-left: 10%;
 }
 
 .sixreasonstitle{
   font-weight: 800;
 }
+
 
 
 .imglayout353 {
@@ -504,6 +487,14 @@
         float: right;
       }
     }  
+
+    @media (max-width: 768px) {
+      .imglayout353 {
+        margin-left: 20%;
+        max-width: 80%;
+      }
+    } 
+    
 
     @media (min-width: 600px) {
       .criteriabox{

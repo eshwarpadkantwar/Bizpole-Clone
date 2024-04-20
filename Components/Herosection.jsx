@@ -259,7 +259,7 @@ function Herosection() {
                     <div className="right">
                         <div className="inner">
                             <h1 className="journeytitle">Find the Perfect Loan</h1>
-                            <h1 className="journeytitle">for Your Needs</h1>
+                            {/* <h1 className="journeytitle">for Your Needs</h1> */}
                             <p className="journeytitlep">Looking for a loan can be overwhelming, but Bizpole Capital simplifies the process. We offer a variety of loan options for different needs and our experts are there to guide you throughout. Get started with a stress-free experience and find the perfect loan solution for you today.</p>
                             <button className="journeybtn">Get Loan</button>
 

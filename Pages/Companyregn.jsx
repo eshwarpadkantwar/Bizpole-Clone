@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../CSS/Privatelimitedcompany.css";
 
-function Privatelimitedcompany() {
+function Companyregn() {
 
 
   const [activeTab, setActiveTab] = useState('tabs-1');
@@ -47,7 +47,7 @@ function Privatelimitedcompany() {
             
 
             <form className="actualform">
-            <h2 className="formplctitle">Private Limited Company</h2>
+            <h2 className="formplctitle text-center">Company Registration</h2>
               <input className="forminput" type="text" name="name" placeholder=" Name" />
 
               <input className="forminput" type="email" name="email" placeholder=" Email" />
@@ -758,8 +758,8 @@ function Privatelimitedcompany() {
             </form>
           </section>
           <div className="hero-text herocontent">
-            <h1 className="herotitle">Take the first step to creating your own brand and business</h1>
-            <p className="heropara">Setting up a private limited company is one of the quickest ways to start a business in India. With a little bit of paperwork and some patience, you can be on your way to your new business venture.</p>
+            <h1 className="herotitle">Company Registration</h1>
+            <p className="heropara">Trust us for seamless company registration. Our expert team ensures compliance and efficiency, making your process smooth and hassle-free. Partner with us for trustworthy service in this thriving business hub in India.</p>
           </div>
         </div>
       </main>
@@ -771,18 +771,14 @@ function Privatelimitedcompany() {
             <div className="col-lg-6 col-sm-12 col-12">
               <div className="help_txt">
                 <h2 className="color_white banner2title" style={{ marginBottom: '0px', textAlign: 'left' }}>
-                  Prosper with a private limited company
+                  Company Registration in India
                 </h2>
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 col-12">
               <div className="help_txt">
                 <p className="text-left color_white mt-3 banner2para">
-                  Most new businesses in India opt for a private limited company due to the flexibility it offers. You can
-                  make your own rules, appoint board members and decide whom to partner with — all within limits. Private
-                  limited company offers limited liability for its shareholders, with certain restrictions placed on
-                  ownership. This makes a private limited company ideal for companies that wish to raise funds from the
-                  public.
+                Company registration is the process of legally incorporating a company by registering it with government authorities. The main purpose of company registration is to obtain a legal entity that can be used to perform various business activities, including entering into a contract, acquiring funds, etc
                 </p>
               </div>
             </div>
@@ -801,8 +797,8 @@ function Privatelimitedcompany() {
                 <div className="row">
                   <div className="col-md-6 layout353_content-left">
                     <div>
-                      <h2 className="heading-xxlarge sixreasonstitle">6 Reasons to choose Private Limited Company</h2>
-                      <p className="text-size-large sixreasonspara">Registering as a private limited company offers many benefits. It helps:</p>
+                      <h2 className="heading-xxlarge sixreasonstitle">Reasons for Company Registration</h2>
+                     
                       <div className="core-values-graphic-wrapper">
                         <img className="core-values-image imglayout353" src="https://www.bizpole.in/images/step/thump.png" alt="Clipart bizpole" />
                       </div>
@@ -812,39 +808,39 @@ function Privatelimitedcompany() {
                     <div className="layout353_content-item content-item-1 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">01</div>
                       <div>
-                        <h5>Safeguards against potential risks and protection from personal liability</h5>
+                        <h5>You can safeguard yourself against potential risks and personal liability.</h5>
                       </div>
                     </div>
                     <div className="layout353_content-item content-item-2 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">02</div>
                       <div>
-                        <h5>Attracts more customers</h5>
+                        <h5>You will find it easy to attract more customers.</h5>
                       </div>
                     </div>
                     <div className="layout353_content-item content-item-3 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">03</div>
                       <div>
-                        <h5>Obtain bank credits and good investment from reliable investors easily</h5>
+                        <h5>You can obtain bank credits and good investments from reliable investors.</h5>
                       </div>
                     </div>
                     <div className="layout353_content-item content-item-4 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">04</div>
                       <div>
-                        <h5>Offers liability protection to protect your personal assets</h5>
+                        <h5>You can provide your company with increased growth and stability.</h5>
                       </div>
                     </div>
                     <div className="layout353_content-item content-item-5 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">05</div>
                       <div>
-                        <h5>Improves stability and capital contribution</h5>
+                        <h5>You can increase the possibility of business expansion.</h5>
                       </div>
                     </div>
-                    <div className="layout353_content-item content-item-6 sticky">
+                    {/* <div className="layout353_content-item content-item-6 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">06</div>
                       <div>
                         <h5>Increases the possibility of business expansion</h5>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -861,7 +857,7 @@ function Privatelimitedcompany() {
           <div className="head_sec ">
             <div className="row align-items-center">
               <div className="col-lg-10 col-sm-12 ">
-                <h2 className="criteriatitle">Private Limited Registration <br /> made easy!</h2>
+                <h2 className="criteriatitle">Company Registration <br /> made easy!</h2>
                 <li className="criteriapara">Here’s everything you need to know:</li>
               </div>
             </div>
@@ -1060,4 +1056,4 @@ function Privatelimitedcompany() {
   )
 }
 
-export default Privatelimitedcompany;
+export default Companyregn;

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "../CSS/Privatelimitedcompany.css";
 
-function Privatelimitedcompany() {
+
+function Trademarkassignment() {
 
 
   const [activeTab, setActiveTab] = useState('tabs-1');
@@ -44,10 +45,10 @@ function Privatelimitedcompany() {
 
           {/* Form */}
           <section className="contact-form">
-            
+
 
             <form className="actualform">
-            <h2 className="formplctitle">Private Limited Company</h2>
+              <h2 className="formplctitle text-center">Trademark Assignment</h2>
               <input className="forminput" type="text" name="name" placeholder=" Name" />
 
               <input className="forminput" type="email" name="email" placeholder=" Email" />
@@ -751,15 +752,15 @@ function Privatelimitedcompany() {
                             </div> */}
               <div className="checkpara">
                 <input type="checkbox" className="checkbox" id="" />
-                <p>I authorize Bizpole and its representative to contact me with updates and notifications via Email, SMS, WhatsApp, and Call. This will override the registry on DND/NDNC.</p>
+                <p>I authorize Kalpa Tax and its representative to contact me with updates and notifications via Email, SMS, WhatsApp, and Call. This will override the registry on DND/NDNC.</p>
               </div>
 
               <button className="send_email btn  btn btn_yellow_" type="submit" data-loading-text="Sending...">Send</button>
             </form>
           </section>
           <div className="hero-text herocontent">
-            <h1 className="herotitle">Take the first step to creating your own brand and business</h1>
-            <p className="heropara">Setting up a private limited company is one of the quickest ways to start a business in India. With a little bit of paperwork and some patience, you can be on your way to your new business venture.</p>
+            <h1 className="herotitle">Encash your trademark rights</h1>
+            <p className="heropara">A Trademark Assignment Agreement is intended to transfer the ownership of the trademark and its commercial rights. In other words, an assignee becomes the new owner of the trademark. A Trademark Licensing Agreement enables an owner/producer to grant a third party the right to use its trademark in exchange for periodic payments (royalty).</p>
           </div>
         </div>
       </main>
@@ -771,19 +772,17 @@ function Privatelimitedcompany() {
             <div className="col-lg-6 col-sm-12 col-12">
               <div className="help_txt">
                 <h2 className="color_white banner2title" style={{ marginBottom: '0px', textAlign: 'left' }}>
-                  Prosper with a private limited company
+                Securely Transfer Ownership of Your Property
                 </h2>
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 col-12">
               <div className="help_txt">
                 <p className="text-left color_white mt-3 banner2para">
-                  Most new businesses in India opt for a private limited company due to the flexibility it offers. You can
-                  make your own rules, appoint board members and decide whom to partner with — all within limits. Private
-                  limited company offers limited liability for its shareholders, with certain restrictions placed on
-                  ownership. This makes a private limited company ideal for companies that wish to raise funds from the
-                  public.
+                Securely Transfer Ownership of Your Property
+                
                 </p>
+                <p className="mt-3">An assignment is the transfer of a trademark or other intangible property from one person to another. To understand the concept better, imagine that you have a valuable house. An Assignee is someone who buys the house from you and will enjoy its benefits. However, because all ownership rights are transferred from one person to another, the Assignor is no longer responsible for any potential problems that may occur regarding the property.</p>
               </div>
             </div>
           </div>
@@ -801,8 +800,8 @@ function Privatelimitedcompany() {
                 <div className="row">
                   <div className="col-md-6 layout353_content-left">
                     <div>
-                      <h2 className="heading-xxlarge sixreasonstitle">6 Reasons to choose Private Limited Company</h2>
-                      <p className="text-size-large sixreasonspara">Registering as a private limited company offers many benefits. It helps:</p>
+                      <h2 className="heading-xxlarge sixreasonstitle">3 Reasons to choose Trademark Assignment</h2>
+                      <p className="text-size-large sixreasonspara">Here are the major reasons why people prefer Trademark Assignment:</p>
                       <div className="core-values-graphic-wrapper">
                         <img className="core-values-image imglayout353" src="https://www.bizpole.in/images/step/thump.png" alt="Clipart bizpole" />
                       </div>
@@ -812,37 +811,19 @@ function Privatelimitedcompany() {
                     <div className="layout353_content-item content-item-1 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">01</div>
                       <div>
-                        <h5>Safeguards against potential risks and protection from personal liability</h5>
+                        <h5>Unlock the value of the brand/brand owner</h5>
                       </div>
                     </div>
                     <div className="layout353_content-item content-item-2 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">02</div>
                       <div>
-                        <h5>Attracts more customers</h5>
+                        <h5>Valid proof for legal disputes</h5>
                       </div>
                     </div>
                     <div className="layout353_content-item content-item-3 sticky">
                       <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">03</div>
                       <div>
-                        <h5>Obtain bank credits and good investment from reliable investors easily</h5>
-                      </div>
-                    </div>
-                    <div className="layout353_content-item content-item-4 sticky">
-                      <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">04</div>
-                      <div>
-                        <h5>Offers liability protection to protect your personal assets</h5>
-                      </div>
-                    </div>
-                    <div className="layout353_content-item content-item-5 sticky">
-                      <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">05</div>
-                      <div>
-                        <h5>Improves stability and capital contribution</h5>
-                      </div>
-                    </div>
-                    <div className="layout353_content-item content-item-6 sticky">
-                      <div className="text-size-large sixreasonsnum text-weight-bold text-color-accent">06</div>
-                      <div>
-                        <h5>Increases the possibility of business expansion</h5>
+                        <h5>Opportunity to expand businesses for both parties</h5>
                       </div>
                     </div>
                   </div>
@@ -861,7 +842,7 @@ function Privatelimitedcompany() {
           <div className="head_sec ">
             <div className="row align-items-center">
               <div className="col-lg-10 col-sm-12 ">
-                <h2 className="criteriatitle">Private Limited Registration <br /> made easy!</h2>
+                <h2 className="criteriatitle">Assigning trademarks<br /> made easy!</h2>
                 <li className="criteriapara">Here’s everything you need to know:</li>
               </div>
             </div>
@@ -882,50 +863,31 @@ function Privatelimitedcompany() {
           <div className="tab-content">
             <div className={`tab-pane ${activeTab === 'tabs-1' ? 'active' : ''}`} id="tabs-1" role="tabpanel">
               <div className="round_box criteriabox ms-auto bg-white">
-                <li className="p_rel">✔ Minimum 2 directors </li>
-                <li className="p_rel">✔ A unique name for your business</li>
-                <li className="p_rel">✔ Minimum authorized capital of at least ₹1 lakh </li>
-                <li className="p_rel">✔ A registered office </li>
+                <li className="p_rel">✔ Any individual or company can apply for a trademark so that their product or service can be protected. The application must include the trademark, the applicant's name and address, as well as the agent and the power of attorney.</li>
+               
               </div>
             </div>
             <div className={`tab-pane ${activeTab === 'tabs-2' ? 'active' : ''}`} id="tabs-2" role="tabpanel">
               <div className="bg-white criteriabox">
-                <li>You would need scanned copies of:</li>
-                <li><b>Director's Documents</b></li>
-                <li className="p_rel">✔ Director's PAN</li>
-                <li className="p_rel">✔ Director's ID Proofs</li>
-                <li className="p_rel">✔ Aadhaar Card or Voter ID or Passport or Driver's License</li>
-                <li className="p_rel">✔ Address Proofs:</li>
-                <li className="p_rel">✔ Latest one month Savings Bank statement or</li>
-                <li className="p_rel">✔ Latest Telephone Bill on his own name or</li>
-                <li className="p_rel">✔ Latest Moblie Bill on his name or</li>
-                <li className="p_rel">✔ Latest Electricity Bill on his own name.</li>
-                <li className="p_rel">✔ Director's latest passport size photograph</li>
-                <li className="p_rel">✔ Director's Email ids</li>
-                <li className="p_rel">✔ Incase of Foreign directors, International Passport is mandatory</li>
 
-                <li><b>Company Documents</b></li>
-                <li className="p_rel">✔ Registered Office Address Proof: Latest Power Bill</li>
-                <li className="p_rel">✔ No-objection letter from the Landlord.</li>
-                <li className="p_rel">✔ Rental Agreement from the landlord if the premises are rented.</li>
-                <li className="p_rel">✔ Company email id.</li>
+                
+                <li className="p_rel">✔ Trademark assignment agreement</li>
+                <li className="p_rel">✔ Trademark certificate</li>
+                <li className="p_rel">✔ NOC from the assignor</li>
+                <li className="p_rel">✔ Identification documents of the assignor and assignee</li>
+                
+               
               </div>
             </div>
             <div className={`tab-pane ${activeTab === 'tabs-3' ? 'active' : ''}`} id="tabs-3" role="tabpanel">
               <div className="steps criteriabox bg-white">
                 <div className="step ">
                   <div >
-                    <li><b>Step 1:</b> Arrange basic documents of Partners</li>
-                    <li><b>Step 2:</b> Fill in an online form with accurate information</li>
-                    <li><b>Step 3:</b> Apply for Digital Signature and DIN of Partners</li>
-                    <li><b>Step 4:</b> Prepare all legal documents</li>
-                    <li><b>Step 5:</b> Apply for name availability </li>
-                    <li><b>Step 6:</b> Submit MoA, AoA, Declaration from Directors and Affidavits of the Directors </li>
-                    <li><b>Step 7:</b> Collect Subscriber information such as address, occupation, nature of shares, number
-                      of shares subscribed etc </li>
-                    <li><b>Step 8:</b> Apply for the PAN and TAN of the company </li>
-                    <li><b>Step 9:</b> Obtain certificate of incorporation by ROC with a PAN and TAN </li>
-                    <li><b>Step 10:</b> Open a current bank account on the company’s name </li>
+                    <li><b>Step 1:</b> An application is to be made in Form ™-P by the assignor or assignee.</li>
+                    <li><b>Step 2:</b> Apply with the registrar of a trademark within six months from the date of procurement of the proprietorship.</li>
+                    <li><b>Step 3:</b> Advertise the assignment as the registrar may direct.</li>
+                    <li><b>Step 4:</b> A copy of the direction of the registrar and advertisement of the assignment must be submitted to the office to make sure that the directions have been followed.</li>
+                    <li><b>Step 5:</b> On the receipt of the trademark assignment application and documents required, the registrar shall register the assignee as the proprietor of the trademark</li>
                   </div>
                 </div>
               </div>
@@ -1000,59 +962,30 @@ function Privatelimitedcompany() {
       {/* Clients Reviews End */}
 
       {/* Company regn banner start*/}
-      <div className="regn_company">
+      {/* <div className="regn_company">
   <div className="container company_reg">
     <section className="trust_reg_location ">
       <div className="row location-row">
         <div className="col-md-4">
           <ul className="list-unstyled ">
             
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Kochi</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Kozhikode</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Trivandrum</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Thrissur</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Malappuram</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Chennai</a></li>
-            
+            <li> <a className="btn btn-link trust_reg_locationplca text-center" href="">LLP Registration in Kerla & Chennai</a></li>
           </ul>
         </div>
-        <div className="col-md-4">
-          <ul className="list-unstyled ">
-          
-            <li className="trust_reg_locationplcli"> <a className="btn btn-link trust_reg_locationplca" href=".html">Company Registration in Coimbatore</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Madurai</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Salem</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Erode</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Tiruchy</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Tirupur</a></li>
-           
-          </ul>
-        </div>
-            <div className="col-md-4">
-            <ul className="list-unstyled ">
-            
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Hyderabad</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Mysore</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Belgaum</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Hubli</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Mangalore</a></li>
-            <li> <a className="btn btn-link trust_reg_locationplca" href="">Company Registration in Bangalore</a></li>
-          </ul>
-            </div>
           </div>
         </section>
       </div>
-    </div>
+    </div> */}
       {/* Company regn banner end*/}
-      
+
       {/* Get in touch start */}
-            <div className="touch">
-              <div className="contents">
-                <h1>Let our expert assist you right now</h1>
-                <p>Get immediate answers by chatting with one of our incorporation agents</p>
-                <a><button className="intouchbtn">Get in touch</button></a>
-              </div>
-            </div>
+      <div className="touch">
+        <div className="contents">
+          <h1>Let our expert assist you right now</h1>
+          <p>Get immediate answers by chatting with one of our incorporation agents</p>
+          <a><button className="intouchbtn">Get in touch</button></a>
+        </div>
+      </div>
 
       {/* Get in touch end */}
 
@@ -1060,4 +993,4 @@ function Privatelimitedcompany() {
   )
 }
 
-export default Privatelimitedcompany;
+export default Trademarkassignment;

@@ -11,9 +11,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: 'white' }}>
+    <nav className="navbar kalpanavbar navbar-expand-lg navbar-dark">
     <div className="container-fluid">
-      <a className="navbar-brand fw-bold text-dark ms-3" href="#">Kalpa Tag</a>
+      <a className="navbar-brand fw-bold text-dark ms-3" href="#">Kalpa Tax</a>
       <button className="navbar-toggler border border-dark" onClick={toggleNavbar} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   <span className="navbar-toggler-icon bg-danger"></span>
 </button>
